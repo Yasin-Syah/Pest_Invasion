@@ -1,0 +1,14 @@
+// Main.java
+public class Main {
+
+    public static void main(String[] args) {
+        // Menampilkan pesan selamat datang
+        System.out.println("Selamat datang di permainan Pest Invasion!");
+
+        // Inisialisasi objek utama yang diperlukan dalam game
+        Game pestInvasion = new Game();
+        
+        // Memulai permainan
+        pestInvasion.start();
+    }
+}
